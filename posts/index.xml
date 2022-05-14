@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Ichigo Notes</title><link>https://ichigo.dev/posts/</link><description>Recent content in Posts on Ichigo Notes</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 14 May 2022 07:46:35 +0900</lastBuildDate><atom:link href="https://ichigo.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>なんかやってるシリーズ始まります</title><link>https://ichigo.dev/posts/2022-05-14/</link><pubDate>Sat, 14 May 2022 07:46:35 +0900</pubDate><guid>https://ichigo.dev/posts/2022-05-14/</guid><description>初めに こんにちは、いちごです。最近良い感じのドメイン(ichigo.dev)を取得し、使い道を考えていたところ、折角なので何か記事を書くブログ的なWebsサイトに使おうということで、&amp;ldquo;Ichigo Notes なんかやってるシリーズ&amp;quot;始まります。
+なんかやってるシリーズとは なんか(SwitchからPCへの転送とか)やってる#プチコン4 #petitcom pic.twitter.com/BrGq8Ti3zK
+&amp;mdash; ぷちぃいちぃご (@petitstb) March 18, 2022 SE100をBluetoothでコントロールするControlAK、ひとまず完成した。
+レスポンスはまだ改善の余地がありそう pic.twitter.com/TFlCsGroao
+&amp;mdash; ぷちぃいちぃご (@petitstb) January 18, 2021 こんな感じに今まで色々とやってましたが、それらの技術的な解説とかそういう感じのやつはツイートではなかなか厳しいところもある気がするような気がしなくなくもないので、そういう奴らをまとめるシリーズです。
+主にiOS, Android, macOS, SmileBasic系の話になるような気がする。その他にも今後色々（日常的な何かも）気が向いたら書くかもしれないし、更新しないかもしれない。軽いノリなので正確性に欠けるかもしれないけれど、そんな感じでよろしくお願いします。
+(おまけ)このサイトについて Markdownで記事書くといい感じに爆速でビルドしてくれるらしいのでHugoで作ってみました。privateリポジトリにPushするとGitHub Actionsでいい感じにGithub Pagesのリポジトリにデプロイしてくれるので快適です。
+テーマのクレジット表記はサイドバーにあります。まだ全然カスタムできてないです。</description></item></channel></rss>
