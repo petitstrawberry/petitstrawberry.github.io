@@ -1,11 +1,16 @@
 .breadcrumb {
   padding: 0;
 }
+
+.breadcrumb ol {
+  padding: 0;
+}
+
 .breadcrumb li {
   display: inline;
-  list-style: none;
+  font-size: 0.8em;
 }
+
 .breadcrumb li:not(:last-child)::after {
-  content: '>';
-  padding: 0 0.5em;
+  content: ">";
 }
