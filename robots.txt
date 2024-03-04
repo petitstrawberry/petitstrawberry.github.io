@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ichigo.dev/sitemap.xml
