@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Text and Inputs on Ichigo Notes</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/text_input/</link><description>Recent content in Text and Inputs on Ichigo Notes</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="https://ichigo.dev/docs/smilebasic/sws/uikit/views/text_input/index.xml" rel="self" type="application/rss+xml"/><item><title>Text</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/text_input/text/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/text_input/text/</guid><description>Text(text) Parameters # uikit_type # &amp;#34;Text&amp;#34; align # #UIKIT_CENTER</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Text and Inputs on Ichigo Notes</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/text_input/</link><description>Recent content in Text and Inputs on Ichigo Notes</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ichigo.dev/docs/smilebasic/sws/uikit/views/text_input/index.xml" rel="self" type="application/rss+xml"/><item><title>Text</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/text_input/text/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/text_input/text/</guid><description>&lt;pre tabindex="0">&lt;code>Text(text)
+&lt;/code>&lt;/pre>&lt;h2 id="parameters">
+ Parameters
+ &lt;a class="anchor" href="#parameters">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="uikit_type">
+ uikit_type
+ &lt;a class="anchor" href="#uikit_type">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>&amp;#34;Text&amp;#34;
+&lt;/code>&lt;/pre>&lt;h3 id="align">
+ align
+ &lt;a class="anchor" href="#align">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>#UIKIT_CENTER
+&lt;/code>&lt;/pre></description></item></channel></rss>

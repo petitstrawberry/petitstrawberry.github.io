@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Raspberry Pi on Ichigo Notes</title><link>https://ichigo.dev/tags/raspberry-pi/</link><description>Recent content in Raspberry Pi on Ichigo Notes</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 09 Feb 2024 15:23:38 +0900</lastBuildDate><atom:link href="https://ichigo.dev/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml"/><item><title>Raspberry PiとMediaPlayerを使ってOpenHomeレンダラを作る (前編)</title><link>https://ichigo.dev/posts/2022-06-16/</link><pubDate>Thu, 16 Jun 2022 11:00:56 +0900</pubDate><guid>https://ichigo.dev/posts/2022-06-16/</guid><description>音楽再生環境を何とかしたい！ ここ数日、家での音楽再生環境の再構築をやってました。結果として良い環境が仕上がったと思います。せっかくなのでその経緯をここに記します。 今までの構成 # iMac MinimServer (音楽配信DLNAサ</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Raspberry Pi on Ichigo Notes</title><link>https://ichigo.dev/tags/raspberry-pi/</link><description>Recent content in Raspberry Pi on Ichigo Notes</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Fri, 09 Feb 2024 15:23:38 +0900</lastBuildDate><atom:link href="https://ichigo.dev/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml"/><item><title>Raspberry PiとMediaPlayerを使ってOpenHomeレンダラを作る (前編)</title><link>https://ichigo.dev/posts/2022-06-16/</link><pubDate>Thu, 16 Jun 2022 11:00:56 +0900</pubDate><guid>https://ichigo.dev/posts/2022-06-16/</guid><description>&lt;p>&lt;em>&lt;strong>音楽再生環境を何とかしたい！&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>ここ数日、家での音楽再生環境の再構築をやってました。結果として良い環境が仕上がったと思います。せっかくなのでその経緯をここに記します。&lt;/p>
+&lt;h2 id="今までの構成">
+ 今までの構成
+ &lt;a class="anchor" href="#%e4%bb%8a%e3%81%be%e3%81%a7%e3%81%ae%e6%a7%8b%e6%88%90">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>iMac
+&lt;ul>
+&lt;li>MinimServer (音楽配信DLNAサーバ)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Raspberry Pi 4 model B
+&lt;ul>
+&lt;li>HiFiBerry DAC2 PRO (D/A)
+&lt;ul>
+&lt;li>ここからライン出力してアンプに渡す&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>moOde audio
+&lt;ul>
+&lt;li>mpdをWeb UIから良い感じに使えるディストリビューション&lt;/li>
+&lt;li>upmpdcli
+&lt;ul>
+&lt;li>mpdをDLNA/OpenHomeレンダラとしても使えるようにする(moOdeからはオプションとして有効にできる)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>MacBook/iOSデバイス/Androidデバイス
+&lt;ul>
+&lt;li>Lumin AppやBubbleUPnPなどをOpenHomeコントローラとして使う&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>というような構成でした。基本的にはMPDクライアントを用いる使い方はせず、WebUIも使わず、単にOpenHomeレンダラとして使っていました。&lt;/p></description></item></channel></rss>

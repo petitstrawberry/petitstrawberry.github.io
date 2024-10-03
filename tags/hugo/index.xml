@@ -1,1 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Ichigo Notes</title><link>https://ichigo.dev/tags/hugo/</link><description>Recent content in Hugo on Ichigo Notes</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sat, 24 Feb 2024 13:13:43 +0900</lastBuildDate><atom:link href="https://ichigo.dev/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>コメント機能を追加しました</title><link>https://ichigo.dev/posts/2024-02-24/</link><pubDate>Sat, 24 Feb 2024 12:51:21 +0900</pubDate><guid>https://ichigo.dev/posts/2024-02-24/</guid><description>このブログにコメント機能を追加しました. giscusというGitHub Disscussionsを使ったコメントシステムです. Hugoへの導入方法は以下の公式ガイドに従いました. giscus A comments widget built on GitHub Discussions. これによ</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Ichigo Notes</title><link>https://ichigo.dev/tags/hugo/</link><description>Recent content in Hugo on Ichigo Notes</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 24 Feb 2024 13:13:43 +0900</lastBuildDate><atom:link href="https://ichigo.dev/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>コメント機能を追加しました</title><link>https://ichigo.dev/posts/2024-02-24/</link><pubDate>Sat, 24 Feb 2024 12:51:21 +0900</pubDate><guid>https://ichigo.dev/posts/2024-02-24/</guid><description>&lt;p>このブログにコメント機能を追加しました. &lt;a href="https://giscus.app/">giscus&lt;/a>というGitHub Disscussionsを使ったコメントシステムです.&lt;/p>
+&lt;p>Hugoへの導入方法は以下の公式ガイドに従いました.&lt;/p>
+&lt;div style="margin-top: 10px;">
+
+ &lt;a href="https://giscus.app/ja" style="border-radius: 8px;padding: 12px;border: solid 2px var(--gray-200);display: flex;text-decoration: none;color: var(--body-font-color);" onMouseOver="this.style.opacity='0.9'">
+ &lt;div style="flex-shrink: 0;">
+ &lt;img src="https://ichigo.dev/giscus_11275504815182232825.png" alt="" width="100" height="100" style="object-fit: contain;" />
+ &lt;/div>
+ &lt;div style="margin-left: 10px;">
+ &lt;h2 style="margin: 0;padding-bottom: 13px;border: none;font-size: 16px;">giscus&lt;/h2>
+ &lt;p style="margin: 0;font-size: 13px;word-break: break-word;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;">A comments widget built on GitHub Discussions.&lt;/p></description></item></channel></rss>

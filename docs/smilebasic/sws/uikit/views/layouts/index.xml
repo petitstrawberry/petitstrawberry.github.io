@@ -1,1 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Layout Containers on Ichigo Notes</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/</link><description>Recent content in Layout Containers on Ichigo Notes</description><generator>Hugo -- gohugo.io</generator><language>ja</language><atom:link href="https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/index.xml" rel="self" type="application/rss+xml"/><item><title>VStack</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/vstack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/vstack/</guid><description>VStack(view0,view1,...) 垂直方向にViewを配置する。 Parameters # uikit_type # &amp;#34;VStack&amp;#34; align # #UIKIT_CENTER Callback Functions # uikitf_layout # VStack_layout self uikitf_make # VStack_make self</description></item><item><title>HStack</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/hstack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/hstack/</guid><description>HStack(view0,view1,...) 水平方向にViewを配置する。 Parameters # uikit_type # &amp;#34;HStack&amp;#34; align # #UIKIT_CENTER</description></item><item><title>ZStack</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/zstack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/zstack/</guid><description>ZStack(view0,view1,...) z方向にViewを配置する。後ろの引数のViewほど手前に表示される。 Parameters # uikit_type # &amp;#34;ZStack&amp;#34; align # #UIKIT_CENTER</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Layout Containers on Ichigo Notes</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/</link><description>Recent content in Layout Containers on Ichigo Notes</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/index.xml" rel="self" type="application/rss+xml"/><item><title>VStack</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/vstack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/vstack/</guid><description>&lt;pre tabindex="0">&lt;code>VStack(view0,view1,...)
+&lt;/code>&lt;/pre>&lt;p>垂直方向にViewを配置する。&lt;/p>
+&lt;h2 id="parameters">
+ Parameters
+ &lt;a class="anchor" href="#parameters">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="uikit_type">
+ uikit_type
+ &lt;a class="anchor" href="#uikit_type">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>&amp;#34;VStack&amp;#34;
+&lt;/code>&lt;/pre>&lt;h3 id="align">
+ align
+ &lt;a class="anchor" href="#align">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>#UIKIT_CENTER
+&lt;/code>&lt;/pre>&lt;h2 id="callback-functions">
+ Callback Functions
+ &lt;a class="anchor" href="#callback-functions">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="uikitf_layout">
+ uikitf_layout
+ &lt;a class="anchor" href="#uikitf_layout">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>VStack_layout self
+&lt;/code>&lt;/pre>&lt;h3 id="uikitf_make">
+ uikitf_make
+ &lt;a class="anchor" href="#uikitf_make">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>VStack_make self
+&lt;/code>&lt;/pre></description></item><item><title>HStack</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/hstack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/hstack/</guid><description>&lt;pre tabindex="0">&lt;code>HStack(view0,view1,...)
+&lt;/code>&lt;/pre>&lt;p>水平方向にViewを配置する。&lt;/p>
+&lt;h2 id="parameters">
+ Parameters
+ &lt;a class="anchor" href="#parameters">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="uikit_type">
+ uikit_type
+ &lt;a class="anchor" href="#uikit_type">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>&amp;#34;HStack&amp;#34;
+&lt;/code>&lt;/pre>&lt;h3 id="align">
+ align
+ &lt;a class="anchor" href="#align">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>#UIKIT_CENTER
+&lt;/code>&lt;/pre></description></item><item><title>ZStack</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/zstack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/layouts/zstack/</guid><description>&lt;pre tabindex="0">&lt;code>ZStack(view0,view1,...)
+&lt;/code>&lt;/pre>&lt;p>z方向にViewを配置する。後ろの引数のViewほど手前に表示される。&lt;/p>
+&lt;h2 id="parameters">
+ Parameters
+ &lt;a class="anchor" href="#parameters">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="uikit_type">
+ uikit_type
+ &lt;a class="anchor" href="#uikit_type">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>&amp;#34;ZStack&amp;#34;
+&lt;/code>&lt;/pre>&lt;h3 id="align">
+ align
+ &lt;a class="anchor" href="#align">#&lt;/a>
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>#UIKIT_CENTER
+&lt;/code>&lt;/pre></description></item></channel></rss>
