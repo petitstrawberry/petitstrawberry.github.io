@@ -69,7 +69,9 @@
  &lt;a class="anchor" href="#%e5%89%b2%e3%82%8a%e5%bd%93%e3%81%a6ip%e3%82%a2%e3%83%89%e3%83%ac%e3%82%b9">#&lt;/a>
 &lt;/h2>
 &lt;blockquote class="book-hint warning">
- IPアドレス割り当てミスが増えてきたのでメモ. &lt;strong>固定したらここに書く！&lt;/strong>(戒め)
+ 
+IPアドレス割り当てミスが増えてきたのでメモ. **固定したらここに書く！**(戒め)
+
 &lt;/blockquote>
 
 &lt;h3 id="wan-lan-vlan1000-1000028">
