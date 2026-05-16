@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust on Ichigo Notes</title><link>https://ichigo.dev/tags/rust/</link><description>Recent content in Rust on Ichigo Notes</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 16 May 2026 13:34:34 +0900</lastBuildDate><atom:link href="https://ichigo.dev/tags/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>セルフホスト型音楽配信サーバ＆プレイヤーKanadeを作った</title><link>https://ichigo.dev/posts/2026-05-16/</link><pubDate>Sat, 16 May 2026 13:34:34 +0900</pubDate><guid>https://ichigo.dev/posts/2026-05-16/</guid><description>&lt;h2 id="はじめに"&gt;はじめに&lt;a class="anchor" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab"&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;「前編の続きがないな, おかしいな」.&lt;/p&gt;
-&lt;p&gt;本当にそう.&lt;/p&gt;
+&lt;p&gt;「前編の続きがないな, おかしいな&amp;hellip;」&lt;/p&gt;
+&lt;p&gt;それは&amp;hellip; 本当に&amp;hellip; そう&lt;/p&gt;
 &lt;p&gt;2022年に&lt;a href="https://ichigo.dev/posts/2022-06-16/"&gt;Raspberry PiとMediaPlayerを使ってOpenHomeレンダラを作る (前編)&lt;/a&gt;という記事を書いて, 最後にしれっと「後編に続く」と書き残したのですが, &lt;strong&gt;続きませんでした&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>
