@@ -1,20 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fundamental Views on Ichigo Notes</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/</link><description>Recent content in Fundamental Views on Ichigo Notes</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/index.xml" rel="self" type="application/rss+xml"/><item><title>View</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/view/</guid><description>&lt;pre tabindex="0">&lt;code>View()
-&lt;/code>&lt;/pre>&lt;p>全てのViewの基本となるView。全てのViewは以下のParameters, Functions, Callback Functions, Modifier Functionsを持つ。&lt;/p>
-&lt;h2 id="parameters">
- Parameters
- &lt;a class="anchor" href="#parameters">#&lt;/a>
-&lt;/h2>
-&lt;h3 id="uikit_type">
- uikit_type
- &lt;a class="anchor" href="#uikit_type">#&lt;/a>
-&lt;/h3>
-&lt;pre tabindex="0">&lt;code>&amp;#34;View&amp;#34;
-&lt;/code>&lt;/pre>&lt;p>Viewの型名。&lt;/p>
-&lt;h3 id="uikit_title">
- uikit_title
- &lt;a class="anchor" href="#uikit_title">#&lt;/a>
-&lt;/h3>
-&lt;pre tabindex="0">&lt;code>&amp;#34;&amp;#34;
-&lt;/code>&lt;/pre>&lt;p>Viewの名前。NavigationViewなどで利用される。&lt;/p></description></item><item><title>Wrapper</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/wrapper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/wrapper/</guid><description>&lt;pre tabindex="0">&lt;code>Wrapper(view)
-&lt;/code>&lt;/pre>&lt;p>viewと同じサイズのViewであり、子Viewとしてviewを持つ。viewのCallback FunctionやParameterを変更することなく、新たにCallback FunctionやParameterを設定したい時に使う。&lt;/p></description></item><item><title>Spacer</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/spacer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/spacer/</guid><description>&lt;pre tabindex="0">&lt;code>Spacer()
-&lt;/code>&lt;/pre>&lt;p>実際は実態を持たずViewではないが、&lt;a href="../../layouts">Layout Containers&lt;/a>内で可能な限り最大のサイズを得るViewとして振る舞う。Viewを上下や左右に寄せて配置したいなど、空白を設けたい時に使用される。&lt;a href="../../layouts">Layout Containers&lt;/a>内(ZStackを除く)でのみ使用可能。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fundamental Views on Ichigo Notes</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/</link><description>Recent content in Fundamental Views on Ichigo Notes</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/index.xml" rel="self" type="application/rss+xml"/><item><title>View</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/view/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;View()&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;全てのViewの基本となるView。全てのViewは以下のParameters, Functions, Callback Functions, Modifier Functionsを持つ。&lt;/p&gt;
+&lt;h2 id="parameters"&gt;Parameters&lt;a class="anchor" href="#parameters"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="uikit_type"&gt;uikit_type&lt;a class="anchor" href="#uikit_type"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;&amp;#34;View&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Viewの型名。&lt;/p&gt;
+&lt;h3 id="uikit_title"&gt;uikit_title&lt;a class="anchor" href="#uikit_title"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;&amp;#34;&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Viewの名前。NavigationViewなどで利用される。&lt;/p&gt;
+&lt;h2 id="functions"&gt;Functions&lt;a class="anchor" href="#functions"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="getviewtype"&gt;getViewType&lt;a class="anchor" href="#getviewtype"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;getViewType(view)&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Viewの型名を取得。&lt;/p&gt;
+&lt;h3 id="getparentview"&gt;getParentView&lt;a class="anchor" href="#getparentview"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;getParentView(view,type)&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;viewから親Viewへと辿ってtypeの型のViewを取得。&lt;/p&gt;
+&lt;h3 id="getviewframe"&gt;getViewFrame&lt;a class="anchor" href="#getviewframe"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;getViewFrame(view)&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;viewのFrameを取得。&lt;code&gt;getWindowFrame(view)&lt;/code&gt;と同等。&lt;/p&gt;
+&lt;h2 id="callback-functions"&gt;Callback Functions&lt;a class="anchor" href="#callback-functions"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;コールバック関数は&lt;code&gt;uikitf_(funcName)&lt;/code&gt;というパラメータに関数名を文字列として設定する。&lt;/p&gt;</description></item><item><title>Wrapper</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/wrapper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/wrapper/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;Wrapper(view)&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;viewと同じサイズのViewであり、子Viewとしてviewを持つ。viewのCallback FunctionやParameterを変更することなく、新たにCallback FunctionやParameterを設定したい時に使う。&lt;/p&gt;
+&lt;h2 id="sample"&gt;Sample&lt;a class="anchor" href="#sample"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;common def MyView()
+ var view = frame(100,100,VStack(\
+ Rectangle(#C_RED),\
+ Text(&amp;#34;MyView&amp;#34;),\
+ Rectangle(#C_BLUE)\
+ ))
+ spvar view,&amp;#34;uikitf_layout&amp;#34;,&amp;#34;MyView_layout&amp;#34;
+
+ return view
+end
+
+common def MyView_layout self
+ print &amp;#34;MyView_layout!!!&amp;#34;
+end&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Spacer</title><link>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/spacer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ichigo.dev/docs/smilebasic/sws/uikit/views/fundamental/spacer/</guid><description>&lt;pre tabindex="0"&gt;&lt;code&gt;Spacer()&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;実際は実態を持たずViewではないが、&lt;a href="../../layouts"&gt;Layout Containers&lt;/a&gt;内で可能な限り最大のサイズを得るViewとして振る舞う。Viewを上下や左右に寄せて配置したいなど、空白を設けたい時に使用される。&lt;a href="../../layouts"&gt;Layout Containers&lt;/a&gt;内(ZStackを除く)でのみ使用可能。&lt;/p&gt;</description></item></channel></rss>
